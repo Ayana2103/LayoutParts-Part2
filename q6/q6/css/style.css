@@ -9,7 +9,7 @@ nav{
   display: flex;
   justify-content: space-between;
   width: 1100px;
-  margin: auto;
+  margin: 0 auto;
 }
 .logo{
   font-size: 24px;
@@ -20,7 +20,7 @@ nav{
 .menu{
   display: inline-block;
   color: #ffffff;
-  padding: 30px;
+  padding: 30px 15px;
 }
 a{
   text-decoration: none;
