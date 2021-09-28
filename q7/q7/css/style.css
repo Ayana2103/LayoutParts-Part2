@@ -10,23 +10,20 @@
   padding: 20px;
   border-radius: 30px;
 }
-.balloon:before{
+.balloon:before, .balloon:after{
   content:"";
   position: absolute;
-  bottom: -25px;
   left: 10%;
   margin-left: -16px;
   border: solid 15px transparent;
+}
+.balloon:before{
+  bottom: -25px;
   border-top: 15px solid #fad296;
   z-index: 2;
 }
 .balloon:after{
-  content: "";
-  position: absolute;
   bottom: -30px;
-  left: 10%;
-  margin-left: -16px;
-  border: 15px solid transparent;
   border-top: 15px solid #815a0a;
   z-index: 1;
 }
