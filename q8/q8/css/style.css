@@ -5,20 +5,13 @@
 }
 .repeat{
   height:500px;
-  background-repeat: no-repeat;
-  background-image:url(../../image/coffee-background.jpg)
+  background: url(../../image/coffee-background.jpg) no-repeat;
 }
 .center-wid{
   height:500px;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image:url(../../image/coffee-background.jpg)
+  background:url(../../image/coffee-background.jpg) no-repeat center/cover;
 }
 .center-fit{
   height:500px;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-image:url(../../image/coffee-background.jpg)
+  background:url(../../image/coffee-background.jpg) no-repeat center/contain;
 }
